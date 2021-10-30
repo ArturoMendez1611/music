@@ -2,7 +2,7 @@
 
 var mongoose = require("mongoose"); //Conexion a la base de datos
 var Schema = mongoose.Schema; //Esquema creacion de las tablas de la db
-
+//Base de datos en forma de estructura
 var EsquemaUsuarios = Schema({
     nombre: String,
     apellido: String,
