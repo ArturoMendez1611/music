@@ -23,7 +23,7 @@ function registrarUsuario(req, res) {
     usuario.email = params.email;
     usuario.rol = 'ROLE_ADMIN';
     usuario.imagen = 'null';
-    //Validacion de  la contraseña y se incripta con el metodo HASH 
+    //Validacion de  la contraseña y se incripta con el metodo HASH 10= saltos que realiza
     if (params.password) {
         bcrypt.hash(params.password, 10, function(err, hash) {
             usuario.password = hash;
