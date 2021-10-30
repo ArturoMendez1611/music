@@ -1,4 +1,5 @@
 'use strict'
+//Bcryp hay que revisar el metodo reciente
 //librerias
 
 const bcrypt = require('bcrypt');
